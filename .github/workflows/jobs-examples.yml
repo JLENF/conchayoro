@@ -20,5 +20,5 @@ jobs:
         with:
           name: build-result
           path: build-result.txt    
-      - name: step do job2
-        run: echo Hello, world! Job2.
+      - name: use of artifact created
+        run: ls build-result.txt
